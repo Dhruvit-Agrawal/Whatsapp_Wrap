@@ -173,6 +173,8 @@ else:
     By uploading your exported chat file, you can gain valuable insights into your messaging behavior and communication patterns.
     """)
 
+    st.write(" Upload your WhatsApp chat file throught upload button present in the sidebar tab now and unlock insights that help you better understand your messaging habits!")
+
     # Instructions for Exporting WhatsApp Chat
     st.subheader("How to Export Your WhatsApp Chat")
     st.markdown("""
@@ -193,5 +195,5 @@ else:
     - 😀 **Emoji Analysis**: Gain insights into your emoji usage and trends.
     - 📈 **Interactive Visualizations**: Explore your data through engaging charts and graphs.
 
-    Upload your WhatsApp chat file throught upload button present in the sidebar tab now and unlock insights that help you better understand your messaging habits!
+   
     """)
