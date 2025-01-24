@@ -10,17 +10,17 @@
 ## Installation  
 To run WhatsApp Wrap locally, follow these steps:  
 1. **Clone the repository**:
-'''bash
+  '''bash
 git clone https://github.com/Dhruvit-Agrawal/whatsapp-wrap.git
 cd whatsapp-wrap
 
 3. **Set up a virtual environment (optional but recommended)**:
-'''python  
+  '''python  
 python -m venv env
 source env/bin/activate # On Windows use env\Scripts\activate
 
 4. **Install the required packages**:
-'''python
+  '''python
 pip install -r requirements.txt
 
 
@@ -53,4 +53,4 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## Acknowledgments  
 - Thanks to [Streamlit](https://streamlit.io/) for providing an easy way to build web applications with Python.  
-- Thanks to all contributors and users for their support! 
+
