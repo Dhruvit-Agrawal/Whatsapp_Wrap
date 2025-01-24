@@ -159,7 +159,7 @@ if uploaded_file is not None:
         st.header("✨ Select a User for Analysis")
 
         st.write("""
-        To get started, please choose a user from the dropdown menu below and click the **"Show Analysis"** button
+        To get started, please choose a user from the dropdown menu present in the sidebar and click the **"Show Analysis"** button
         """)
 
 else:
@@ -193,5 +193,5 @@ else:
     - 😀 **Emoji Analysis**: Gain insights into your emoji usage and trends.
     - 📈 **Interactive Visualizations**: Explore your data through engaging charts and graphs.
 
-    Upload your WhatsApp chat file now and unlock insights that help you better understand your messaging habits!
+    Upload your WhatsApp chat file throught upload button present in the sidebar tab now and unlock insights that help you better understand your messaging habits!
     """)
