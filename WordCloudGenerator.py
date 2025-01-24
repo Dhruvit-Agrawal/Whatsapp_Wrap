@@ -3,10 +3,21 @@ from collections import Counter
 import emoji
 import pandas as pd
 import re
+import os
 
-#stopwords
-f=open(".\stop_hinglish.txt", "r")
-stop_words=f.read().splitlines()
+
+# Get the directory of the current script
+current_dir = os.path.dirname(__file__)
+file_path = os.path.join(current_dir, 'stop_hinglish.txt')
+
+# Open the stop words file
+try:
+    with open(file_path, "r") as f:
+        stop_words = f.read().splitlines()
+except FileNotFoundError:
+    print(f"Error: The file '{file_path}' was not found.")
+    stop_words = []  # Fallback if the file is not found
+
 
 def generate_wc(df,selected_user):
 
