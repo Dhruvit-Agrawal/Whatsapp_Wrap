@@ -12,6 +12,9 @@ st.title('WHATSAPP WRAP')
 
 st.sidebar.title("Sidebar")
 
+#selecting the device from which the chat has been downloaded
+device = st.sidebar.selectbox("Select Device from where the chat is being downloaded", ["Android", "iOS"])
+
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
 
@@ -19,10 +22,10 @@ if uploaded_file is not None:
     bytes_data = uploaded_file.getvalue()
 
     # Convert stream to string
-    string_data = bytes_data.decode("utf-8")
+    string_data = bytes_data.decode("utf-8").split("\n")
 
     # Preprocessing the string_data
-    preprocessed_data = preprocess(string_data)
+    preprocessed_data = preprocess(string_data,device=device.lower())
 
 
     # Fetching the sender list
