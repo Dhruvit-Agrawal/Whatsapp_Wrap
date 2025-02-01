@@ -1,5 +1,6 @@
 # WhatsApp Wrap  
-**WhatsApp Wrap** is a tool designed to analyze your WhatsApp chat data. By uploading your exported chat files, you can gain insights into your messaging habits, including participant activity, word usage, and emoji trends.  
+**WhatsApp Wrap** is a tool designed to analyze your WhatsApp chat data. By uploading your exported chat files, you can gain insights into your messaging habits, including participant activity, word usage, and emoji trends.
+To access the tool visit: https://whatsappwrap-dhruvitagrawal.streamlit.app/
 
 ## Features  
 - **Participant Analysis**: Discover who you message the most.  
